@@ -22,4 +22,5 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
 
     def __str__(self):
+        print('123')
         return self.choice_text
